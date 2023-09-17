@@ -1,0 +1,339 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.text-yellow {
+    color: #ffd700;
+}
+
+.bg-onion {
+    background-image: linear-gradient(90deg, rgba(199, 196, 205, 1) 0%, rgba(216, 213, 220, 1) 100%);
+}
+
+.bg-pearl {
+    background-image: linear-gradient(90deg, rgba(189, 250, 255, 1) 0%, rgba(71, 124, 129, 1) 100%);
+}
+
+.bg-light-gray {
+    background-color: #222222;
+}
+
+.bg-banner1 {
+    background-image: url('images/banner1.jpg');
+}
+
+.bg-banner2 {
+    background-image: url('images/banner2.jpg');
+}
+
+body {
+    font-family: comic-sans ms;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+.loc a:link {
+    text-decoration: underline;
+}
+
+.justify-content-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-bar {
+    z-index: 10;
+}
+
+.navbar-nav li {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    font-size: 1.3rem;
+}
+
+.navbar-nav .active::before {
+    content: '';
+    background: #8b008b;
+    height: 3px;
+    max-width: 100%;
+    transform: translateY(2.5rem);
+    display: block;
+}
+
+/* ---------------banner------------ */
+
+#banner {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.color-indigo {
+    color: #8b008b;
+}
+
+.promo-title {
+    font-family: arial-black;
+    color: black;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.promo-title::before {
+    content: '// ';
+    color: #ffd700;
+}
+
+.promo-description {
+    color: black;
+    font-size: 4rem;
+}
+
+/* ---------------services--------------- */
+
+#services {
+    padding-top: 5%;
+    padding: 6rem;
+    padding-bottom: 1rem;
+}
+
+.circle {
+    background: rgb(94, 73, 212);
+    border-radius: 50%;
+    width: 6rem;
+    height: 6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.heading {
+    padding-left: 3rem !important;
+}
+
+.col3 {
+    padding-top: 3em;
+    padding-left: 6em;
+}
+
+.bi-gear {
+    color: white;
+
+}
+
+/* ----------------------cards--------------- */
+
+#cards {
+    padding: 6rem;
+    padding-top: 0%;
+}
+
+.cards-circle {
+    background: #222222;
+    border-radius: 50%;
+    width: 7.5rem;
+    height: 7.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.service-card {
+    border-radius: 10% !important;
+    background-image: linear-gradient(90deg, rgba(68, 68, 68, 1) 0%, rgba(34, 34, 34, 1) 100%);
+    padding: 2rem;
+
+}
+
+.card-text {
+    color: #999999;
+    font-size: small;
+}
+
+.circle-icon {
+    width: 3.4em;
+    height: 3.5em;
+}
+
+.card-body {
+    border-radius: 50%;
+}
+
+.btn-b {
+    font-size: large !important;
+    padding: 0;
+    width: 11.25rem;
+}
+
+.bi-caret-right-fill {
+    color: #8b008b;
+}
+
+/* -------------------about us-------------- */
+
+#about-us {
+    padding-top: 5%;
+    padding-left: auto;
+    padding-right: auto;
+    padding-bottom: 5%;
+}
+
+ul {
+    list-style-type: none
+}
+
+.outline-circle {
+    margin-top: 2rem;
+    border: 1px solid rgba(100, 100, 100, 0.479);
+    height: 5rem;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.bullet {
+    margin-top: 2rem;
+}
+
+/* ------------------process-------------- */
+
+#box {
+
+    box-sizing: border-box;
+
+}
+
+.overlay-square {
+    border-radius: 1%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-left: 2%;
+
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.process-circle {
+    padding-bottom: 3%;
+}
+
+.bullet-circle {
+    margin-top: 5rem;
+    margin-left: 1.5rem;
+    border: 10px solid rgba(216, 213, 220, 1);
+    height: 6rem;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 6rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.bullet-points {
+    text-align: left;
+    padding-top: 5.5rem;
+}
+
+/* ----------------testimonials----------------- */
+
+#testimonials {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.testimonials-card {
+    border-radius: .7rem;
+    padding: 5%;
+}
+
+.container-test {
+    padding: 2%;
+}
+
+/* --------------------benifits------------------------ */
+
+#benifits {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+footer {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+/* --------------------------secondary pages-------------------- */
+
+#services-title {
+    padding-top: 10rem;
+    padding-bottom: 5rem;
+}
+
+#getintouch {
+    padding-top: 3rem !important;
+}
+
+.about-service-bullets ul>li {
+    clear: left;
+    padding: .5rem 0;
+}
+
+.about-service-bullets ul>li:before {
+    content: "";
+    height: 1.5rem;
+    width: 1.5rem;
+    display: block;
+    float: left;
+    margin-left: -1.5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.about-service-bullets ul>li:before {
+    background: url("https://info.openpath.com/hubfs/checkmark-round-orange.svg");
+    background-size: cover;
+    background-position: center;
+    padding: .15rem;
+}
+
+.social-bullet-circle {
+    margin-top: 3rem;
+    border: 8px solid rgba(216, 213, 220, 1);
+    height: 5rem;
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    width: 5rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.social-bullets {
+    padding-top: 3.5rem;
+}
+
+#dummy {
+    padding-bottom: 10%;
+}
