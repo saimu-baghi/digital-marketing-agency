@@ -6,12 +6,17 @@
   <link rel="stylesheet" href="style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Nunito:wght@800&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-  <header class="bg-banner1">
+  <header>
     <section id="nav-bar">
       <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
@@ -38,169 +43,171 @@
         </div>
       </nav>
     </section>
-    <!----------------------------  social-media-banner  -------------------------->
-    <section id="social-media-banner">
-      <div class="container">
-        <div class="row d-flex justify-content-center">
-          <div class="col-md-6 heading">
-            <p class="promo-description">Social Media Marketing</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Fiot tio lerop consectetur adipiscing elit, sed do sim.</p>
-          </div>
-          <div class="col-md-6" text-center>
-            <img src="images/marketing.png" class="img-fluid">
-          </div>
+    <!----------------------------  hero-social-media  -------------------------->
+    <section id="individual-service">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-6">
+          <p class="promo-description">Social Media Marketing</p>
+          <p class="Lorem-typo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et
+            dolore magna aliqua. Fiot tio lerop consectetur adipiscing elit, sed do sim.</p>
+        </div>
+        <div class="col-md-6">
+          <img src="images/hero-sm.png" class="img-fluid">
         </div>
       </div>
     </section>
   </header>
   <!---------------------------- services ------------------------->
-  <div class="bg-light-gray">
-    <section id="services">
+  <div class="bg-gray">
+    <section id="services-ind">
       <div class="container text-center">
-        <div class="circle"><i class="bi bi-gear fa-3x"></i></div>
+        <div class="circle" style="background: rgba(89, 86, 232, 1); color: white;"><i class="bi bi-gear fa-2x"></i></div>
         <br>
-        <p class="promo-title text-uppercase" style="color: gray;">01. Our Services</p>
-        <h1 style="color: white;">High-impact services to take your business <br> to the next level</h1>
+        <p class="promo-title text-uppercase" style="color: #D0D0D0;">01. Our Services</p>
+        <p class="tag-line text-white">We have extensive experience in Social Media Marketing</p>
       </div>
     </section>
     <!------------------------- Cards -------------------->
-    <section id="cards">
+    <section id="cards-ind">
       <div class="container">
-        <div class="row d-flex justify-content-center g-4 ">
+        <div class="row d-flex justify-content-center">
           <div class="col-12 col-md-6 col-lg-4">
-            <div class="card text-white h-100 service-card">
+            <div class="card text-white ind-card">
               <div class="cards-circle ">
                 <img src="images/socialmedia.png" class="circle-icon">
               </div>
               <div class="card-body">
-                <h5 class="card-title">Social Media Marketing</h5>
+                <p class="bullet-title">Social Media Marketing</p>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                <button type="button" class="btn btn-warning btn-lg btn-b">Read More <i
+                <button onclick="window.location.href='social-media.html';" type="button"
+                  class="btn btn-yellow btn-lg btn-b">Read More <i class="bi bi-caret-right-fill fa-sm"></i></button>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="card text-white ind-card">
+              <div class="cards-circle ">
+                <img src="images/socialmedia.png" class="circle-icon">
+              </div>
+              <div class="card-body">
+                <p class="bullet-title">Social Media Marketing</p>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                <button onclick="window.location.href='social-media.html';" type="button"
+                  class="btn btn-outline-yellow btn-lg btn-b">Read More <i
                     class="bi bi-caret-right-fill fa-sm"></i></button>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4">
-            <div class="card text-white h-100 service-card">
+            <div class="card text-white ind-card">
               <div class="cards-circle ">
                 <img src="images/socialmedia.png" class="circle-icon">
               </div>
               <div class="card-body">
-                <h5 class="card-title">Social Media Marketing</h5>
+                <p class="bullet-title">Social Media Marketing</p>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                <button type="button" class="btn btn-outline-warning btn-lg btn-b">Read More <i
+                <button onclick="window.location.href='social-media.html';" type="button"
+                  class="btn btn-outline-yellow btn-lg btn-b">Read More <i
                     class="bi bi-caret-right-fill fa-sm"></i></button>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4">
-            <div class="card text-white h-100 service-card">
+            <div class="card text-white ind-card">
               <div class="cards-circle ">
                 <img src="images/socialmedia.png" class="circle-icon">
               </div>
               <div class="card-body">
-                <h5 class="card-title">Social Media Marketing</h5>
+                <p class="bullet-title">Social Media Marketing</p>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                <button type="button" class="btn btn-outline-warning btn-lg btn-b">Read More <i
+                <button onclick="window.location.href='social-media.html';" type="button"
+                  class="btn btn-outline-yellow btn-lg btn-b">Read More <i
                     class="bi bi-caret-right-fill fa-sm"></i></button>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4">
-            <div class="card text-white h-100 service-card">
+            <div class="card text-white ind-card">
               <div class="cards-circle ">
                 <img src="images/socialmedia.png" class="circle-icon">
               </div>
               <div class="card-body">
-                <h5 class="card-title">Social Media Marketing</h5>
+                <p class="bullet-title">Social Media Marketing</p>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                <button type="button" class="btn btn-outline-warning btn-lg btn-b">Read More <i
+                <button onclick="window.location.href='social-media.html';" type="button"
+                  class="btn btn-outline-yellow btn-lg btn-b">Read More <i
                     class="bi bi-caret-right-fill fa-sm"></i></button>
               </div>
             </div>
           </div>
           <div class="col-12 col-md-6 col-lg-4">
-            <div class="card text-white h-100 service-card">
+            <div class="card text-white ind-card">
               <div class="cards-circle ">
                 <img src="images/socialmedia.png" class="circle-icon">
               </div>
               <div class="card-body">
-                <h5 class="card-title">Social Media Marketing</h5>
+                <p class="bullet-title">Social Media Marketing</p>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                <button type="button" class="btn btn-outline-warning btn-lg btn-b">Read More <i
-                    class="bi bi-caret-right-fill fa-sm"></i></button>
-              </div>
-            </div>
-          </div>
-          <div class="col-12 col-md-6 col-lg-4">
-            <div class="card text-white h-100 service-card">
-              <div class="cards-circle ">
-                <img src="images/socialmedia.png" class="circle-icon">
-              </div>
-              <div class="card-body">
-                <h5 class="card-title">Social Media Marketing</h5>
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                <button type="button" class="btn btn-outline-warning btn-lg btn-b">Read More <i
+                <button onclick="window.location.href='social-media.html';" type="button"
+                  class="btn btn-outline-yellow btn-lg btn-b">Read More <i
                     class="bi bi-caret-right-fill fa-sm"></i></button>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <section id="getintouch">
-        <div class="container justify-content-center text-center">
-          <button type="button" class="btn btn-secondary btn-lg">Get In Touch</button>
-        </div>
-      </section>
+      <div class="container justify-content-center text-center">
+        <button type="button" class="btn-git">Get In Touch</button>
+      </div>
     </section>
   </div>
   <!------------------------------ about-this-service ---------------------------->
-  <div class="bg-pearl">
-    <section id="about-us">
-      <div class="container">
-        <div class="row d-flex justify-content-center">
-          <div class="col-12 col-md-6 col-lg-4" text-center>
-            <img src="images/aboutus.png" class="img-fluid">
+  <div style="background: white;">
+    <section id="about-ind">
+      <div class="row d-flex justify-content-center">
+        <div class="col-md-6">
+          <img src="images/imgpc.png" class="img-fluid">
+        </div>
+        <div class="col-md-6">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="circle" style="background-color: #FFDC60; color: #866C12;"><i class="bi bi-at fa-3x"></i>
+              </div>
+            </div>
+            <div class="col-md-10">
+              <p class="promo-title text-uppercase">02. about this service</p>
+              <p class="tag-line">We take your business reach from thousands to millions</p>
+            </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-8">
-            <div class="row ">
-              <div class="col-md-2">
-                <div class="circle" style="background-color:#ffd700; color: orangered;"><i class="bi bi-at fa-3x"></i>
-                </div>
-              </div>
-              <div class="col-md-7">
-                <p class="promo-title text-uppercase">02. about this service</p>
-                <h3>We take your business reach from thousands to millions</h3>
-              </div>
-            </div>
-            <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-              dolore magna aliqua. Dvolutpat sagittis, sit nulla. Velit et augues vitae Mattis at nibh nullas placerat
-              imperdiet cursus viverra justo amet. Ipsum duis tempor.</p>
-            <div class="about-service-bullets">
-              <ul>
-                <li>Dolor Duis Lorem Enim Eu Turpis Potenti Nulla Semper</li>
-                <li>Lorem A Eget Blandit Ac Neque Dapibus Pulvinar</li>
-                <li>Pellentesque Non Integer Ac Id Imperdiet Sit Bibendum</li>
-            </div>
+          <hr>
+          <p class="lorem-typo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+            incididunt ut labore et
+            dolore magna aliqua. Dvolutpat sagittis, sit nulla. Velit et augues vitae Mattis at nibh nullas placerat
+            imperdiet cursus viverra justo amet. Ipsum duis tempor.</p>
+          <div class="about-service-bullets">
+            <ul class="lorem-typo">
+              <li>Dolor Duis Lorem Enim Eu Turpis Potenti Nulla Semper</li>
+              <li>Lorem A Eget Blandit Ac Neque Dapibus Pulvinar</li>
+              <li>Pellentesque Non Integer Ac Id Imperdiet Sit Bibendum</li>
           </div>
         </div>
       </div>
     </section>
     <!--------------------- box ------------------>
-    <section id="box">
+    <section id="box-ind">
       <div class="container">
-        <div class="overlay-square card bg-onion">
-          <div class="row ">
+        <div class="overlay-square card border-0 bg-onion">
+          <div class="row">
             <div class="col-md-6">
-              <h3>Our bulletproof process to win on social media</h3>
+              <p class="tag-line">Our bulletproof process to win on social media</p>
               <hr>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+              <p class="lorem-typo">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt ut labore et
                 dolore magna aliqua. Dvolutpat sagittis, sit nulla. Velit et augues vitae Mattis at nibh nullas placerat
                 imperdiet cursus viverra justo amet. Ipsum duis tempor.</p>
               <div class="about-service-bullets">
-                <ul>
+                <ul class="lorem-typo">
                   <li>Dolor Duis Lorem Enim Eu Turpis Potenti Nulla Semper</li>
                   <li>Lorem A Eget Blandit Ac Neque Dapibus Pulvinar</li>
                   <li>Pellentesque Non Integer Ac Id Imperdiet Sit Bibendum</li>
@@ -210,33 +217,27 @@
               <div class="row">
                 <div class="col-md-2">
                   <div class="social-bullet-circle">
-                    <div class="circle-icon">
-                      <img src="images/blt1.png" class="img-fluid">
-                    </div>
+                    <img src="images/blt1.svg" class="img-fluid">
                   </div>
                   <div class="social-bullet-circle">
-                    <div class="circle-icon">
-                      <img src="images/blt2.png" class="img-fluid">
-                    </div>
+                    <img src="images/blt2.svg" class="img-fluid">
                   </div>
                   <div class="social-bullet-circle">
-                    <div class="circle-icon">
-                      <img src="images/blt3.png" class="img-fluid">
-                    </div>
+                    <img src="images/blt3.svg" class="img-fluid">
                   </div>
                 </div>
                 <div class="col-md-10">
                   <div class="social-bullets">
-                    <h5>Social Media Content Plan</h5>
-                    <p>Nostrud exercitation ullamco la ea commodo consequat.</p>
+                    <p class="bullet-title">Social Media Content Plan</p>
+                    <p class="lorem-typo">Nostrud exercitation ullamco la ea commodo consequat.</p>
                   </div>
                   <div class="social-bullets">
-                    <h5>Publishing & Execution</h5>
-                    <p>Nostrud exercitation ullamco la ea commodo consequat.</p>
+                    <p class="bullet-title">Publishing & Execution</p>
+                    <p class="lorem-typo">Nostrud exercitation ullamco la ea commodo consequat.</p>
                   </div>
                   <div class="social-bullets">
-                    <h5>Measure & Scale</h5>
-                    <p>Nostrud exercitation ullamco la ea commodo consequat.</p>
+                    <p class="bullet-title">Measure & Scale</p>
+                    <p class="lorem-typo">Nostrud exercitation ullamco la ea commodo consequat.</p>
                   </div>
                 </div>
               </div>
@@ -245,7 +246,6 @@
         </div>
       </div>
     </section>
-    <section id="dummy"></section>
   </div>
   <!-- Footer -->
   <footer class="bg-dark text-center text-white">
